@@ -1,0 +1,29 @@
+/* navbar */
+#top-nav{
+   background-color: #daac00 !important;
+   color: white;
+   padding: 0% 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 500;
+    padding-left: 25px;
+}
+#searchbox{
+    background-color: #e4ca6d;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 3px 3px 3px;
+}
+#searchbox::placeholder{
+    color: rgb(8, 1, 1);
+}
+#submitsearch{
+    position: relative;
+    left: -50px;
+    background-color: green;
+    border-radius: 0px;
+}
+i{
+    color: white;
+}
