@@ -49,6 +49,14 @@
     }
 }
 
+@media screen and (max-width: 350px){
+.navbar-dark .navbar-brand {
+        width: 75%;
+    }
+}
+
+
+
 /* banner */
 #paradiv h1 {
     font-family: 'Poppins', sans-serif;
