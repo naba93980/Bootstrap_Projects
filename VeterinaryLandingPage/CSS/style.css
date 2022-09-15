@@ -1,29 +1,46 @@
 /* navbar */
-#top-nav{
-   background-color: #daac00 !important;
-   color: white;
-   padding: 0% 5%;
+#top-nav {
+    background-color: #daac00 !important;
+    padding: 0% 5%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     font-weight: 500;
     padding-left: 25px;
 }
-#searchbox{
+
+#searchbox {
     background-color: #e4ca6d;
     border-radius: 0px;
     border: none;
     box-shadow: 3px 3px 3px;
 }
-#searchbox::placeholder{
+
+#searchbox::placeholder {
     color: rgb(8, 1, 1);
 }
-#submitsearch{
+
+#submitsearch {
     position: relative;
     left: -50px;
     background-color: green;
     border-radius: 0px;
 }
-i{
+
+#search-icon {
     color: white;
 }
+
+@media screen and (max-width: 992px) {
+    .navbar-toggler.collapsed{
+        position: static;
+    }
+} 
+
+@media screen and (max-width: 992px) {
+    .navbar-toggler{
+        position: relative;
+        left: 85%;
+        bottom: 265px; 
+    }    
+}      
