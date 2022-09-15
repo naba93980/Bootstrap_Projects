@@ -32,15 +32,51 @@
 }
 
 @media screen and (max-width: 992px) {
-    .navbar-toggler.collapsed{
+    .navbar-toggler.collapsed {
         position: static;
     }
-} 
+}
 
 @media screen and (max-width: 992px) {
-    .navbar-toggler{
+    .navbar-toggler {
         position: relative;
         left: 85%;
-        bottom: 265px; 
-    }    
-}      
+        bottom: 265px;
+    }
+
+    #searchbox {
+        margin-left: 7.5%;
+    }
+}
+
+/* banner */
+#paradiv h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    #dogimagediv {
+        position: static;
+    }
+
+    #dogimage {
+
+        width: 100%
+    }
+}
+
+@media screen and (min-width:992px) {
+    #dogimagediv {
+        position: relative;
+        right: 30px;
+    }
+
+    #paradiv {
+        z-index: 99;
+    }
+
+    #dogimage {
+        height: 300px;
+        margin-left: 10%;
+    }
+}
