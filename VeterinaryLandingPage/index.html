@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+
     <title>Veterinary Landing Page</title>
 </head>
 
@@ -54,22 +55,38 @@
         </div>
     </nav>
 
-    <!-- container-fluid -->
+    <!-- container-fluid-banner -->
     <div class="container-fluid">
-
-        <!-- banner -->
-        <div class="row text-white bg-warning border border-dark justify-content-center align-items-center pt-5 pb-5">
-            <div class="col-lg-6 p-5 border border-dark" id="paradiv">
+        <div class="row text-white bg-warning justify-content-center align-items-center pt-5 pb-5">
+            <div class="col-md-6 p-5" id="paradiv">
                 <h1>First I wanted to be a veteranian</h1><br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis delectus quae ipsam maiores
                     mollitia neque veniam ab. Facere, sint unde!</p>
                 <button type="button" class="btn btn-info text-white">Contact Us</button>
                 <button type="button" class="btn btn-warning border border-light text-white ms-sm-3">Our
                     Services</button>
-
             </div>
-            <div class="col-lg-6 pt-5 pb-5 border border-dark" id="dogimagediv">
+            <div class="col-md-6 d-none d-md-block pt-5 pb-5" id="dogimagediv">
                 <img src="./Images/dog (2).png" alt="" id="dogimage">
+            </div>
+        </div>
+    </div>
+
+    <!-- container-fluid-services -->
+    <div class="container-fluid mt-xxl-5">
+        <div class="row py-3 py-xxl-5 justify-content-evenly align-items-center">
+            <div class="col-md-5 p-5  pt-5" id="service-text">
+                <h1 class="fw-bold mb-5">As a veterinarian and lover of animals</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga maiores amet officia minus repudiandae
+                    aspernatur doloremque saepe </p>
+                <button type="button" class="btn btn-warning border border-light text-white mt-3">Our
+                    Services</button>
+            </div>
+            <div class="col-md-5 d-none d-md-block d-md-flex flex-md-column " id="service-img">
+                <img src="./Images/page_167.JPG" class="w-100 align-self-center" id="dogdocimage" alt="">
+                <div id="rel-div" class="align-self-center">
+                    <div id="below"></div>
+                </div>
             </div>
         </div>
     </div>
