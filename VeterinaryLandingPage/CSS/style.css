@@ -49,8 +49,8 @@
     }
 }
 
-@media screen and (max-width: 350px){
-.navbar-dark .navbar-brand {
+@media screen and (max-width: 350px) {
+    .navbar-dark .navbar-brand {
         width: 75%;
     }
 }
@@ -68,7 +68,6 @@
     }
 
     #dogimage {
-
         width: 100%
     }
 }
@@ -88,3 +87,30 @@
         margin-left: 10%;
     }
 }
+
+
+/* services */
+@media screen and (min-width:768px) {
+    #dogdocimage {
+        width: 75% !important;
+        align-self: center;
+    }
+
+    #rel-div {
+        width: 0px;
+        height: 0px;
+        position: relative;
+    }
+
+    #below {
+        width: 25vw;
+        height: 25vw;
+        background-color: #fcc302;
+        position: absolute;
+        bottom: -2vw;
+        right: -8vw;
+        z-index: -1;
+    }
+}
+
+/* https: //stackoverflow.com/questions/6040005/relatively-position-an-element-without-it-taking-up-space-in-document-flow */
