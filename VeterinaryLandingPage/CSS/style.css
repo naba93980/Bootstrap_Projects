@@ -134,11 +134,13 @@
         background-size: cover;
     }
 }
-@media screen and (max-width: 768px){
-    .counters{
+
+@media screen and (max-width: 768px) {
+    .counters {
         margin-bottom: 40px;
     }
 }
+
 .counter-icons {
     font-size: 50px;
 }
@@ -146,4 +148,30 @@
 /* posts  */
 .card {
     box-shadow: 4px 5px 7px 0px;
+}
+
+/* footer  */
+.footer-link {
+    margin-bottom: 3px;
+}
+
+#footer-para {
+    text-align: justify;
+}
+
+@media screen and (min-width: 1200px) {
+    .inputAny {
+        border: 0.5px solid white;
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .inputAny {
+        border: 0.5px solid white;
+        width: 15vw;
+    }
+}
+.footer-form{
+    width: max-content;
 }
