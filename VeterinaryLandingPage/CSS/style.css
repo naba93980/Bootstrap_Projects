@@ -160,18 +160,23 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .inputAny {
+    .inputFooterform {
         border: 0.5px solid white;
-        width: 18vw;
+        width: 15vw;
+        
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .inputAny {
+    .inputFooterform {
         border: 0.5px solid white;
-        width: 15vw;
+        width: 25vw;
     }
 }
 .footer-form{
-    width: max-content;
+    background-color: #212529 !important;
+}
+
+.footer-submit-btn{
+    border: 2px solid white;
 }
